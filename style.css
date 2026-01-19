@@ -131,7 +131,7 @@ nav{
 }
 
 
-.banner-content > div{
+.banner-content div{
   display: flex;
   gap: 16px;
   justify-content: center;
@@ -231,7 +231,7 @@ nav{
    text-align:center;
    border-radius: 8px;
    gap: 16px;
-   box-shadow:0 6px 50px 0 #0000000F;
+   box-shadow: 6px 0 20px 0 #0000000F;
 }
  
 .card-logo{
@@ -259,3 +259,80 @@ nav{
    text-align: center;
    color: #627382;
 }
+
+#second-brain{
+   max-width: 1360px;
+   gap: 60px;
+   margin:120px ;
+   background-color: white;
+}
+
+.container{
+   display: flex;
+  
+}
+
+.k-png{
+   width: 600px;
+   height: 600px;
+   border-radius: 12px;
+}
+
+.container .text{
+   max-width: 700px;
+   gap: 40px;
+   margin-top:102px ;
+   margin-bottom: 102px;
+   margin-left:60px ;
+}
+
+.text h5{
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 20px;
+   color: #30B868;
+}
+
+.text h3{
+   font-weight: 700;
+   font-style: bold;
+   font-size: 48px;
+   line-height: 100%;
+   color: #001931;
+   padding-top: 16px;
+}
+
+.text p{
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 24px;
+   color:#627382;
+   padding-top: 16px;
+}  
+.description{
+   display: flex;
+   align-items:center;
+   gap: 10px;
+}
+
+.container .list{
+   padding-top:40px ;
+}
+
+.list .points{
+   list-style-type: none;
+}
+
+.description img{
+   width: 20px;
+   height: 20px;
+}
+
+.description p{
+   font-weight: 500;
+   font-size: 16px;
+   color:#001931 ;
+   padding-top: 0%;
+}
+
+
