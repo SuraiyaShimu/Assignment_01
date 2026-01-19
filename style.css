@@ -64,7 +64,7 @@ nav{
 #banner{
   width: 1600px;
   min-height: 674px;
-  margin-top: 24px;
+  margin-top: 0px;
   background-image: url("../assets/hero-bg.png");
   background-size: cover;
   background-position: center;
@@ -104,7 +104,7 @@ nav{
 
 .badge p{
   color:#30B868;
-  font-weight: 500;
+  font-weight: 500px;
   font-size: 16px;
 }
 
@@ -118,7 +118,7 @@ nav{
 .highlight{
    font-size: 72px;
    line-height: 84px;
-   font-weight: 700;
+   font-weight: 700px;
    color: #30B868;
 }
 
@@ -127,7 +127,7 @@ nav{
    line-height:24px ;
    color:#FFFFFF ;
    max-width: 720px;
-   font-weight: 400;
+   font-weight: 400px;
 }
 
 
@@ -392,4 +392,51 @@ nav{
 
 .last-btn:hover{
   background: #2e2c2c;
+}
+
+.footer-content{
+   background-color:#001931 ;
+   width: 1600px;
+   padding: 120px 120px 30px 120px;
+   gap: 80px;
+}
+
+.f-div{
+   display: flex;
+  justify-content: space-between;
+  width: 1360px;
+  height: 64px;
+ margin-bottom: 80px;
+}
+
+.social-links{
+   color: #FFFFFF;
+  
+}
+
+.social-links p{
+   font-weight: 500px;
+   font-size: 20px;
+   line-height: 28px;
+   padding-bottom: 12px;
+   padding-right: 150px;
+}
+.icons{
+   gap: 16px;
+}
+
+.icons a{
+   
+   border-radius: 100%;
+   color: white;
+
+}
+
+.copyright{
+   color: #FAFAFA;
+   font-weight: 400px;
+   font-size: 16px;
+   line-height: 24px;
+   text-align: center;
+   margin-top: 30px;
 }
