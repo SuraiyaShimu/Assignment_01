@@ -176,6 +176,7 @@ nav{
   font-weight: 600;
   display: flex;
   align-items: center;
+  text-align: center;
   gap: 10px;
   cursor: pointer;
 }
@@ -184,5 +185,77 @@ nav{
   background: #2e2c2c;
 }
 
+#notes{
+  max-width: 1600px;
+  padding-top: 50px;
+  padding-right: 120px;
+  padding-left: 120px;
+  gap: 44px;
+  background-color: #9264640f;
+}
 
+.section-heading{
+    max-width: 1360px;
+    margin: 0 auto;
+    gap: 16px;
+}
 
+.section-heading h2{
+   font-weight: 700;
+   font-style: bold;
+   font-size: 48px;
+   line-height: 100% ;
+   text-align:center ;
+   color:#001931 ;
+}
+.section-heading p{
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 20px;
+   text-align:center ;
+   color:#627382 ;
+   padding-top: 16px;
+   padding-bottom: 44px;
+}
+ .card-box{
+   margin-top: 25px;
+   display: flex;
+   gap: 24px;
+}
+ .card-box .note-card{
+   padding-top: 69.5px;
+   padding-right: 24px;
+   padding-left: 24px;
+   max-width: 322px;
+   background-color: white;
+   text-align:center;
+   border-radius: 8px;
+   gap: 16px;
+   box-shadow:0 6px 50px 0 #0000000F;
+}
+ 
+.card-logo{
+   background-color: #F95555;
+   width: 60px;
+   height: 60px;
+   padding: 14.04px;
+   border-radius: 100%;
+}
+
+.note-card h3{
+   font-weight: 600;
+   font-size: 24px;
+   line-height: 100%;
+   text-align: center;
+   color: #001931;
+   padding-bottom: 16px;
+   padding-top: 16px;
+}
+
+.note-card p{
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 20px;
+   text-align: center;
+   color: #627382;
+}
